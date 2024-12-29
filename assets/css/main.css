@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(to right, #E58FFF, #FFFFFF);
+  }
+
+.button-gradient {
+    @apply relative overflow-hidden rounded-full font-medium py-2 px-4 text-[#9914C1];
+    border: none;
+    cursor: pointer;
+    transition: color 0.5s ease-in-out;
+}
+.button-gradient-2 {
+    @apply relative border  rounded-full font-medium py-2 px-8  border-[#E58FFF] text-[#E58FFF];
+    cursor: pointer;
+    transition: color 0.5s ease-in-out;
+}
+.button-gradient::before {
+    content: "";
+    @apply absolute inset-0 rounded-full;
+    background: linear-gradient(to bottom, #FFFFFF, #BB8EE5);
+    transition: background 1s ease-in-out;
+    z-index: -1;
+}
+.button-gradient-2::before {
+    content: "";
+    @apply absolute inset-0 rounded-full;
+    transition: background 1s ease-in-out;
+    z-index: -1;
+}
+.button-gradient:hover::before {
+    background: linear-gradient(to bottom, #5825C1, #E858FF);
+}
+
+.button-gradient:hover {
+    color: #FFFFFF;
+}
+.button-gradient-2:hover {
+    @apply border-transparent  ;
+    color: #FFFFFF;
+
+}
+.button-gradient-2:hover::before {
+    @apply border-transparent shadow-custom-purple ;
+    background: linear-gradient(to bottom, #5825C1, #E858FF);
+}
+
