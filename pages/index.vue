@@ -1,7 +1,7 @@
 <template>
     <div >
 
-        <div class="flex justify-between items-stretch mb-20 px-[300px] mt-20 ">
+        <div class="flex justify-between items-stretch mb-20 px-[15%] mt-20 ">
             <div class="flex flex-col h-[580px]  w-[50%] items-start justify-between">
                 <p class="text-5xl text-white ">Hi I'm Hamza Berbar</p>
                 <p class="text-7xl bg-clip-text text-transparent bg-gradient-to-br from-[#E58FFF] to-[#FFFFFF] font-bold">Professional Web <br> Designer </p>
@@ -11,7 +11,7 @@
                 </p>
                 <button class="button-gradient-2 z-20 ">Reach me</button>
             </div>
-            <div class="flex    w-[30%] justify-center items-center">
+            <div class="flex    w-[400px] justify-center items-center">
                 <img src="~/assets/imgs/hamza.jpg" class="rounded-full shadow-custom-purple border-2 border-violet-500" alt="">
             </div>
         </div>
