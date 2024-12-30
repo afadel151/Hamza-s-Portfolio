@@ -9,75 +9,75 @@
                 </p>
                 <button class="button-gradient-2 z-20 ">Reach me</button>
             </div>
-            <div class="flex w-[300px]    md:w-[350px] justify-center items-center">
+            <div  class="flex w-[300px]    md:w-[350px] justify-center items-center">
                 <img src="~/assets/imgs/hamza.jpg" class="rounded-full shadow-custom-purple border-2 border-violet-500" alt="">
             </div>
         </div>
         <div class="flex md:flex-row  flex-col relative justify-between md:px-[12%] py-10 items-center md:items-stretch mb-20  mt-40 ">
             
-            <div class="flex    md:w-[90%] w-[70%]  justify-center items-center ">
+            <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100" class="flex    md:w-[90%] w-[70%]  justify-center items-center ">
                 <img src="~/assets/imgs/hamza-2.jpg" class=" shadow-custom-purple border-2 border-violet-500" alt="">
             </div>
             <div class="flex flex-col justify-between md:mt-0 mt-20 items-center md:items-start px-8">
                <div class="flex flex-col items-center md:items-start  space-y-8">
-                <p class="text-5xl  text-gradient font-bold  ">About Me</p>
-                <p class="text-xl font-thin text-white ">As a professional web designer, I specialize in creating visually compelling, user friendly websites that enhance both functionality and aesthetic appeal.</p>
-                <ul class=" text-white font-thin flex flex-col space-y-2">
+                <p data-aos="fade-right" data-aos-duration="1000" class="text-5xl  text-gradient font-bold  ">About Me</p>
+                <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100" class="text-xl font-thin text-white ">As a professional web designer, I specialize in creating visually compelling, user friendly websites that enhance both functionality and aesthetic appeal.</p>
+                <ul data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300"  class=" text-white font-thin flex flex-col space-y-2">
                     <li class="flex items-center space-x-2"><p>●</p> <p>Design a custom, responsive website that works seamlessly on all devices.</p></li>
                     <li class="flex items-center space-x-2"><p>●</p> <p> Improve user experience (UX) by optimizing site navigation and layout.</p></li>
                         <li class="flex items-center space-x-2"><p>●</p> <p> Boost brand identity through tailored visual designs and consistent branding.</p></li>
                 </ul>  
                </div>
-                <button class="button-gradient-2 md:self-end md:mt-0 mt-10  z-20 ">See more</button>
+                <button data-aos="fade-left" data-aos-duration="800" data-aos-delay="300"  class="button-gradient-2 md:self-end md:mt-0 mt-10  z-20 ">See more</button>
             </div>
         </div>
         <div class="flex relative flex-col justify-between px-[10%] md:px-[400px] items-center mb-20  mt-40 ">
             <p class="text-5xl font-bold text-gradient">My Skills</p>
             <div class="w-full grid md:grid-cols-2 mt-28 gap-y-10 md:gap-x-20">
                 <div class="w-full flex justify-between items-center">
-                    <p class="text-xl w-40 md:w-80  text-white font-thin">UI design</p>
+                    <p  class="text-xl w-40 md:w-80  text-white font-thin">UI design</p>
                     <div class="md:w-80 w-40 relative bg-white h-2 rounded-xl">
-                        <div class="absolute h-2 w-[50%] bg-gradient-to-r from-violet-700 to-purple-500 rounded-full">
+                        <div data-aos="fade-right" data-aos-duration="1500" class="absolute h-2 w-[50%] bg-gradient-to-r from-violet-700 to-purple-500 rounded-full">
 
                         </div>
                     </div>
                 </div>
                 <div class="w-full flex justify-between items-center">
-                    <p class="text-xl w-40 md:w-80  text-white font-thin">User Research</p>
+                    <p  class="text-xl w-40 md:w-80  text-white font-thin">User Research</p>
                     <div class="md:w-80 w-40 relative bg-white h-2 rounded-xl">
-                        <div class="absolute h-2 w-[50%] bg-gradient-to-r from-violet-700 to-purple-500 rounded-full">
+                        <div data-aos="fade-right" data-aos-duration="1500" class="absolute h-2 w-[50%] bg-gradient-to-r from-violet-700 to-purple-500 rounded-full">
 
                         </div>
                     </div>
                 </div>
                 <div class="w-full flex justify-between items-center">
-                    <p class="text-xl w-40 md:w-80  text-white font-thin">UX Design</p>
+                    <p   class="text-xl w-40 md:w-80  text-white font-thin">UX Design</p>
                     <div class="md:w-80 w-40 relative bg-white h-2 rounded-xl">
-                        <div class="absolute h-2 w-[50%] bg-gradient-to-r from-violet-700 to-purple-500 rounded-full">
+                        <div data-aos="fade-right" data-aos-duration="1500" class="absolute h-2 w-[50%] bg-gradient-to-r from-violet-700 to-purple-500 rounded-full">
 
                         </div>
                     </div>
                 </div>
                 <div class="w-full flex justify-between items-center">
-                    <p class="text-xl w-40 md:w-80  text-white font-thin">Prototyping</p>
+                    <p  class="text-xl w-40 md:w-80  text-white font-thin">Prototyping</p>
                     <div class="md:w-80 w-40 relative bg-white h-2 rounded-xl">
-                        <div class="absolute h-2 w-[50%] bg-gradient-to-r from-violet-700 to-purple-500 rounded-full">
+                        <div data-aos="fade-right" data-aos-duration="1500" class="absolute h-2 w-[50%] bg-gradient-to-r from-violet-700 to-purple-500 rounded-full">
 
                         </div>
                     </div>
                 </div>
                 <div class="w-full flex justify-between items-center">
-                    <p class="text-xl w-40 md:w-80  text-white font-thin">Responsive Design</p>
+                    <p  class="text-xl w-40 md:w-80  text-white font-thin">Responsive Design</p>
                     <div class="md:w-80 w-40 relative bg-white h-2 rounded-xl">
-                        <div class="absolute h-2 w-[60%] bg-gradient-to-r from-violet-700 to-purple-500 rounded-full">
+                        <div data-aos="fade-right" data-aos-duration="1500" class="absolute h-2 w-[60%] bg-gradient-to-r from-violet-700 to-purple-500 rounded-full">
 
                         </div>
                     </div>
                 </div>
                 <div class="w-full flex justify-between items-center">
-                    <p class="text-xl w-40 md:w-80  text-white font-thin">Creativity</p>
+                    <p  class="text-xl w-40 md:w-80  text-white font-thin">Creativity</p>
                     <div class="md:w-80 w-40 relative bg-white h-2 rounded-xl">
-                        <div class="absolute h-2 w-[50%] bg-gradient-to-r from-violet-700 to-purple-500 rounded-full">
+                        <div data-aos="fade-right" data-aos-duration="1500" class="absolute h-2 w-[50%] bg-gradient-to-r from-violet-700 to-purple-500 rounded-full">
 
                         </div>
                     </div>

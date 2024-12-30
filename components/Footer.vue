@@ -1,5 +1,5 @@
 <template>
-    <div class="md:px-[15%] px-10">
+    <div data-aos="fade-up" class="md:px-[15%] px-10">
         <div
             class="flex justify-between md:flex-row  flex-col  items-center md:items-start mb-10 md:px-0 px-10  mt-20  md:h-[250px]">
             <div class="h-full flex justify-between md:flex-row  flex-col items-center md:items-start  w-full ">
