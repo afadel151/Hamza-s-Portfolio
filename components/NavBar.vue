@@ -15,7 +15,7 @@
 
             <button class="button-gradient z-20 ">Hire me !</button>
         </div>
-        <div class="md:hidden px-20  shadow-md flex  justify-between  items-center space-x-1     mt-10  w-screen">
+        <div class="md:hidden px-10  shadow-md flex  justify-between  items-center space-x-1     mt-10  w-screen">
             <img src="~/assets/imgs/hamza_logo.png" class=" z-20 " alt="">
             <button class="button-gradient z-20 " @click="$('#menu').slideToggle()">Menu</button>
         </div>
