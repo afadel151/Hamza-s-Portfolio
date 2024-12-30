@@ -1,8 +1,7 @@
 <template>
-    <div >
-
-        <div class="flex justify-between items-stretch mb-20 px-[15%] mt-20 ">
-            <div class="flex flex-col h-[580px]  w-[50%] items-start justify-between">
+    <div>
+        <div class="flex justify-between md:flex-row  flex-col-reverse items-center md:items-stretch mb-20 md:px-[15%] mt-20 ">
+            <div class="flex flex-col h-[580px] md:mt-0 mt-20  md:w-[50%] md:px-0 px-[10%]  items-center  md:items-start justify-between">
                 <p class="text-5xl text-white ">Hi I'm Hamza Berbar</p>
                 <p class="text-7xl bg-clip-text text-transparent bg-gradient-to-br from-[#E58FFF] to-[#FFFFFF] font-bold">Professional Web <br> Designer </p>
                 <p class="text-white text-2xl font-thin">
@@ -11,17 +10,17 @@
                 </p>
                 <button class="button-gradient-2 z-20 ">Reach me</button>
             </div>
-            <div class="flex    w-[400px] justify-center items-center">
+            <div class="flex w-[300px]    md:w-[400px] justify-center items-center">
                 <img src="~/assets/imgs/hamza.jpg" class="rounded-full shadow-custom-purple border-2 border-violet-500" alt="">
             </div>
         </div>
-        <div class="flex relative justify-between px-[300px] py-10 items-stretch mb-20  mt-40 ">
+        <div class="flex md:flex-row  flex-col relative justify-between md:px-[300px] py-10 items-center md:items-stretch mb-20  mt-40 ">
             
-            <div class="flex    w-[35%] justify-center items-center ">
+            <div class="flex    md:w-[35%] w-1/2 justify-center items-center ">
                 <img src="~/assets/imgs/hamza-2.jpg" class=" shadow-custom-purple border-2 border-violet-500" alt="">
             </div>
-            <div class="flex flex-col justify-between items-start px-10">
-               <div class="flex flex-col space-y-4">
+            <div class="flex flex-col justify-between md:mt-0 mt-20 items-start px-10">
+               <div class="flex flex-col items-center md:items-start space-y-4">
                 <p class="text-5xl text-white ">About Me</p>
                 <p class="text-xl font-thin text-white">As a professional web designer, I specialize in creating visually compelling, user friendly websites that enhance both functionality <br> and aesthetic appeal:</p>
                 <div class="px-10 text-white flex flex-col space-y-2">
