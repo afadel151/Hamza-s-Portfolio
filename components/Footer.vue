@@ -1,17 +1,25 @@
 <template>
     <div class="md:px-[15%] px-10">
-        <div class="flex justify-between md:flex-row  flex-col  items-center md:items-start mb-10 md:px-0 px-10  mt-20  md:h-[250px]">
+        <div
+            class="flex justify-between md:flex-row  flex-col  items-center md:items-start mb-10 md:px-0 px-10  mt-20  md:h-[250px]">
             <div class="h-full flex justify-between md:flex-row  flex-col items-center md:items-start  w-full ">
-                <div class="md:w-[44%]  flex flex-col justify-between  space-y-5 md:space-y-0 items-center md:items-start h-full">
+                <div
+                    class="md:w-[44%]  flex flex-col justify-between  space-y-5 md:space-y-0 items-center md:items-start h-full">
                     <img src="~/assets/imgs/hamza_logo.png" class=" z-20 " alt="">
-                    <p class="text-md font-thin md:text-left text-center text-white">I’m here to craft a stunning, user-friendly website that
+                    <p class="text-md font-thin md:text-left text-center text-white">I’m here to craft a stunning,
+                        user-friendly website that
                         elevates your business and leaves a lasting impression.</p>
                     <div class="flex items-center gap-2 ">
                         <img src="~/assets/imgs/position.svg" class="w-6" alt="">
                         <p class="text-white">Algiers, Algeria</p>
                     </div>
                     <div class="flex items-center gap-2 ">
-                        <img src="~/assets/imgs/envelope.svg" class="w-6" alt="">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                        </svg>
+
                         <p class="text-gray-100">hamzaberbar@gmail.com</p>
                     </div>
                 </div>
