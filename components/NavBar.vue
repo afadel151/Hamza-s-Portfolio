@@ -19,8 +19,9 @@
             <img src="~/assets/imgs/hamza_logo.png" class=" z-20 " alt="">
             <button class="button-gradient z-20 " @click="$('#menu').slideToggle()">Menu</button>
         </div>
-        <div id="menu"
-            class="w-screen text-2xl font-bold  md:hidden flex flex-col space-y-3 md:space-y-0 justify-center items-center h-fit">
+       <div id="menu" class="hidden">
+        <div 
+            class="w-screen text-2xl font-bold   md:hidden flex  flex-col space-y-3 md:space-y-0 justify-center items-center h-fit">
             <p class="text-gradient  z-20">Home
             </p>
             <p class="text-gradient  z-20">About me</p>
@@ -28,6 +29,7 @@
             <p class="text-gradient  z-20">Projects</p>
             <p class="text-gradient  z-20">Contact</p>
         </div>
+       </div>
     </div>
 </template>
 
