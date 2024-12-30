@@ -2,7 +2,7 @@
     <div class="z-0">
 
 
-        <div class="w-screen hidden md:flex h-48  z-10 justify-between px-[210px] items-center">
+        <div class="w-screen hidden md:flex h-40  z-10 justify-between px-[210px] items-center">
             <img src="~/assets/imgs/hamza_logo.png" class=" z-20 " alt="">
             <div class="flex justify-center text-2xl  z-20   space-x-8 items-center">
                 <p class="text-gradient ">Home
@@ -28,6 +28,7 @@
             <p class="text-gradient  z-20">Skills</p>
             <p class="text-gradient  z-20">Projects</p>
             <p class="text-gradient  z-20">Contact</p>
+            <button class="button-gradient z-20 ">Hire me !</button>
         </div>
        </div>
     </div>
