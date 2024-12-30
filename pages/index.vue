@@ -2,8 +2,8 @@
     <div>
         <div class="flex justify-between md:flex-row  flex-col-reverse items-center md:items-stretch mb-20 md:px-[15%] mt-20 ">
             <div class="flex flex-col h-[580px] md:mt-0 mt-20  md:w-[50%] md:px-0 px-[10%]  items-center  md:items-start justify-between">
-                <p class="text-4xl  md:text-5xl text-white ">Hi I'm Hamza Berbar</p>
-                <p class="text-6xl md:text-7xl bg-clip-text text-transparent bg-gradient-to-br from-[#E58FFF] to-[#FFFFFF] font-bold">Professional <br> Web <br> Designer </p>
+                <p class="text-3xl  md:text-5xl text-white ">Hi I'm Hamza Berbar</p>
+                <p class="text-5xl md:text-7xl bg-clip-text text-transparent bg-gradient-to-br from-[#E58FFF] to-[#FFFFFF] font-bold">Professional <br> Web <br> Designer </p>
                 <p class="text-white px-8 md:px-0 md:text-2xl text-xl font-thin">
                     I design modern, responsive websites that focus on aesthetics and usability, helping businesses
                     create a strong online presence.
@@ -20,10 +20,10 @@
                 <img src="~/assets/imgs/hamza-2.jpg" class=" shadow-custom-purple border-2 border-violet-500" alt="">
             </div>
             <div class="flex flex-col justify-between md:mt-0 mt-20 items-center md:items-start px-10">
-               <div class="flex flex-col items-center md:items-start px-5 space-y-8">
+               <div class="flex flex-col items-center md:items-start  space-y-8">
                 <p class="text-5xl text-white ">About Me</p>
-                <p class="text-2xl font-thin text-white text-center">As a professional web designer, I specialize in creating visually compelling, user friendly websites that enhance both functionality <br> and aesthetic appeal:</p>
-                <ul class="px-10 text-white font-thin text-lg flex flex-col space-y-2">
+                <p class="text-xl font-thin text-white text-center">As a professional web designer, I specialize in creating visually compelling, user friendly websites that enhance both functionality <br> and aesthetic appeal:</p>
+                <ul class=" text-white font-thin text-lg flex flex-col space-y-2">
                     <li>● Design a custom, responsive website that works seamlessly on all devices.</li>
                     <li>● Improve user experience (UX) by optimizing site navigation and layout.</li>
                     <li>● Boost brand identity through tailored visual designs and consistent branding.</li>
@@ -32,9 +32,9 @@
                 <button class="button-gradient-2 md:self-end md:mt-0 mt-10  z-20 ">See more</button>
             </div>
         </div>
-        <div class="flex relative flex-col justify-between px-[20%] md:px-[400px] items-center mb-20  mt-40 ">
+        <div class="flex relative flex-col justify-between px-[10%] md:px-[400px] items-center mb-20  mt-40 ">
             <p class="text-5xl font-bold text-gradient">My Skills</p>
-            <div class="w-full grid md:grid-cols-2 mt-28 gap-y-10 gap-x-20">
+            <div class="w-full grid md:grid-cols-2 mt-28 gap-y-10 md:gap-x-20">
                 <div class="w-full flex justify-between items-center">
                     <p class="text-xl text-white font-thin">UI design</p>
                     <div class="md:w-80 w-40 relative bg-white h-2 rounded-xl">
@@ -88,7 +88,7 @@
         <div class="flex relative flex-col z-0 justify-between px-[10%] md:px-[300px] items-center mb-20  mt-40 ">
             <div class="absolute top-0 md:right-20 right-0 z-0 bg-custom-radial bg-20x20 w-80 h-28 pointer-events-none"></div>
             <div class="absolute bottom-20 md:right-40 right-0 rotate-90 z-0 bg-custom-radial bg-20x20 w-80 h-48 pointer-events-none"></div>
-            <p class="text-5xl font-bold text-gradient">My Projects</p>
+            <p class="text-5xl font-bold text-gradient z-20">My Projects</p>
             <div class="w-full grid z-0 md:grid-cols-3 px-10 gap-x-16 md:gap-y-0 gap-y-10 mt-20">
                 <div class=" flex flex-col justify-between items-center">
                      <div class="w-full bg-black   border shadow-custom-purple border-violet-400 aspect-square rounded-2xl">
