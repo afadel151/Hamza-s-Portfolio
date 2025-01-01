@@ -25,10 +25,12 @@
                 <ul data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300"  class=" text-white font-thin flex flex-col space-y-2">
                     <li class="flex items-center space-x-2"><p>●</p> <p>Design a custom, responsive website that works seamlessly on all devices.</p></li>
                     <li class="flex items-center space-x-2"><p>●</p> <p> Improve user experience (UX) by optimizing site navigation and layout.</p></li>
-                        <li class="flex items-center space-x-2"><p>●</p> <p> Boost brand identity through tailored visual designs and consistent branding.</p></li>
+                    <li class="flex items-center space-x-2"><p>●</p> <p> Boost brand identity through tailored visual designs and consistent branding.</p></li>
                 </ul>  
                </div>
-                <button data-aos="fade-left" data-aos-duration="800" data-aos-delay="300"  class="button-gradient-2 md:self-end md:mt-0 mt-10  z-20 ">See more</button>
+               <NuxtLink to="/about" class="md:self-end md:mt-0 mt-10">
+                   <button data-aos="fade-left" data-aos-duration="800" data-aos-delay="300"  class="button-gradient-2   z-20 ">See more</button>
+                </NuxtLink>
             </div>
         </div>
         <div class="flex relative flex-col justify-between px-[10%] md:px-[400px] items-center mb-20  mt-40 ">
@@ -142,7 +144,7 @@
             </div>
             <button class="button-gradient mt-10 z-20 ">Submit</button>
         </div>
-        <Footer />
+        
     </div>
 </template>
 

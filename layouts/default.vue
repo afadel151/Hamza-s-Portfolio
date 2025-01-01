@@ -21,6 +21,7 @@
         <div class="z-20 relative">
             <slot  />
         </div>
+        <Footer />
     </div>
 </template>
 <script setup> 
